@@ -13,7 +13,6 @@ export function activate(context: vscode.ExtensionContext) {
         EnumPatternMatchGenerator.providedCodeActionKinds,
     }
   );
-
   context.subscriptions.push(actions);
 }
 
