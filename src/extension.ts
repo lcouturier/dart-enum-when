@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
   const actions = vscode.languages.registerCodeActionsProvider(
     {
       language: 'dart',
-      scheme: 'file',
+      scheme: 'file'
     },
     new EnumPatternMatchGenerator(),
     {
